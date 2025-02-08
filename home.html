@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Event Planner</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary-color: #7c3aed;
+        --primary-hover: #6d28d9;
+        --text-primary: #111827;
+        --text-secondary: #6b7280;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        line-height: 1.6;
+        min-height: 100vh;
+        background: linear-gradient(135deg, #f3f4f6 0%, #ffffff 100%);
+      }
+
+      .hero {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+
+      .content {
+        max-width: 800px;
+        text-align: center;
+        padding: 2rem;
+      }
+
+      h1 {
+        font-size: 3.5rem;
+        font-weight: 800;
+        margin-bottom: 1.5rem;
+        background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 1.2;
+      }
+
+      p {
+        font-size: 1.25rem;
+        color: var(--text-secondary);
+        margin-bottom: 2.5rem;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .cta-button {
+        display: inline-block;
+        padding: 1rem 2.5rem;
+        font-size: 1.125rem;
+        font-weight: 600;
+        color: white;
+        background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
+        border-radius: 0.75rem;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+          0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      }
+
+      .cta-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+          0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      }
+
+      .features {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 4rem;
+        flex-wrap: wrap;
+      }
+
+      .feature {
+        background: white;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        flex: 1;
+        min-width: 200px;
+        max-width: 300px;
+      }
+
+      .feature h3 {
+        color: var(--text-primary);
+        margin-bottom: 0.5rem;
+      }
+
+      .feature p {
+        font-size: 1rem;
+        margin-bottom: 0;
+      }
+
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 2.5rem;
+        }
+
+        p {
+          font-size: 1.125rem;
+        }
+
+        .features {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .feature {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="content">
+        <h1>Plan Your Perfect Event</h1>
+        <p>
+          Streamline your event planning process with our intuitive platform.
+          From venue selection to attendee management, we've got you covered.
+        </p>
+        <a href="index.html" class="cta-button">Start Planning</a>
+
+        <div class="features">
+          <div class="feature">
+            <h3>Venue Search</h3>
+            <p>
+              Find and compare the perfect venues for your event with our
+              comprehensive search tools.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Attendee Management</h3>
+            <p>
+              Easily manage your guest list and keep track of RSVPs in one
+              place.
+            </p>
+          </div>
+          <div class="feature">
+            <h3>Smart Scheduling</h3>
+            <p>
+              Integrate with Calendly for seamless event scheduling and
+              coordination.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
