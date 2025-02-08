@@ -1,3 +1,6 @@
+# Open using this link
+https://event-planner-blond.vercel.app/
+
 # Event Planner
 
 Event Planner is a web-based application designed to help users efficiently plan events by managing attendees, searching for venues, and scheduling events through seamless Calendly integration. This project leverages modern web technologies to provide an intuitive and user-friendly experience.
