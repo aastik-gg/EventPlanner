@@ -37,7 +37,7 @@ Event Planner is a web-based application designed to help users efficiently plan
 ```
 
 ## Installation
-This project does not require any installation. Simply open `home.html` in your web browser to get started.
+This project does not require any installation. Simply open `index.html` in your web browser to get started.
 
 Alternatively, if hosting on a local web server:
 ```sh
