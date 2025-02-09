@@ -29,8 +29,8 @@ Event Planner is a web-based application designed to help users efficiently plan
 
 ## Project Structure
 ```
-├── index.html         # Main event planner page (Attendees, Venue Search, Itinerary)
-├── home.html          # Landing page introducing the platform
+├── event.html         # Main event planner page (Attendees, Venue Search, Itinerary)
+├── index.html          # Landing page introducing the platform
 ├── styles.css         # Stylesheet for UI/UX enhancements
 ├── script.js          # JavaScript logic for interactions and API handling
 ├── README.md          # Project documentation (this file)
